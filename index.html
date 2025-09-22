@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2 class="title">Kalkulator Sederhana</h2>
+        <div class="input-group">
+            <label class="label" for="num1">Angka Pertama</label>
+            <input type="text" class="input-field" id="num1" placeholder="Masukkan angka pertama">
+        </div>
+        
+        <div class="input-group">
+            <label class="label" for="num2">Angka Kedua</label>
+            <input type="text" class="input-field" id="num2" placeholder="Masukkan angka kedua">
+        </div>
+        
+        <div class="button-group">
+            <button class="operator-btn btn-add" id="addBtn">+</button>
+            <button class="operator-btn btn-subtract" id="subtractBtn">-</button>
+            <button class="operator-btn btn-multiply" id="multiplyBtn">×</button>
+            <button class="operator-btn btn-divide" id="divideBtn">÷</button>
+        </div>
+        
+        <div class="result-container">
+            <label class="result-label">Hasil:</label>
+            <div class="result" id="result">0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
